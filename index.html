@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+     <!-- NAVBAR -->
+     <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutus">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bookonline">Book Online</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //NAVBAR -->
+    <section id="home" class="full-height">
+        
+    
+        <!-- HOME -->
+            <section id="heading" class="d-flex align-items-center text-center">
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-12">
+                            <h1 id="headingtext" data-aos="fade-left" data-aos-delay="150">Taste the Difference</h1>
+                            <h4 id="headingtitle" data-aos="fade-right" data-aos-delay="150">From farm to table, we take pride in offering a difference you can savor.</h5>
+                        </div>
+                    </div>
+                    <div class="iconbox">
+                        <h2 style="margin-bottom: 0%; font-size: 50px;">Discover</h2>
+                        <a href="#menu" id="discover">
+                            <i class="las la-angle-down"></i>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        <!-- //HOME -->
+    </section>
+
+    <!--MENU-->
+    <section id="menu" class="full-height">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 id="MenuHeading">Our Menu</h2>
+                    <h5 id="MenuTitle">Our carefully crafted menu features a variety of dishes to satisfy any palate.<br> From savory appetizers to decadent desserts, there's something for everyone.</h5>
+                </div>
+            </div>
+            <div class="row pt-4 d-flex justify-content-center">
+                
+                    <div class="card-custom rounded-4  col-md-2" data-aos="fade-up" data-aos-delay="150">
+                        <div class="card-custom-image rounded-4">
+                            <img src="https://kartinkin.net/uploads/posts/2021-03/1617174466_3-p-reklama-pitstsi-krasivo-4.png" class="card-img-top" alt="Yemek Fotoğrafı">
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Pizza</h5>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="150">
+                        <div class="card-custom-image rounded-4">
+                            <img src="https://www.innaturale.com/wp-content/uploads/2021/03/carbonara-quale-pasta-usare.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Spaghetti Carbonara</h5>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="150">
+                        <div class="card-custom-image rounded-4">
+                            <img src="https://www.thewowstyle.com/wp-content/uploads/2022/03/Lasagne.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Lasagne</h5>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="150">
+                        <div class="card-custom-image rounded-4">
+                            <img src="https://kartinkin.net/uploads/posts/2021-03/thumbs/1617221034_51-p-garnir-k-krevetkam-krasivo-57.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Risotto</h5>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="150">
+                        <div class="card-custom-image rounded-4">
+                            <img src="https://www.italienische-rezepte.net/wp-content/uploads/2020/11/focaccia.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Focaccia</h5>
+                        </div>
+                    </div>
+                      
+            </div>
+        
+            <div class="row d-flex justify-content-center"data-aos="fade-up" data-aos-delay="200">
+                <div class="card-custom rounded-4 col-md-2">
+                    <div class="card-custom-image rounded-4">
+                        <img src="https://adonius.club/uploads/posts/2022-08/thumbs/1660118176_20-adonius-club-p-buterbrod-s-vetchinoi-krasivo-foto-25.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                    </div>
+                   
+                    <div class="card-custom-content p-4">
+                        <h5>Bruschetta</h5>
+                    </div>
+                </div>
+                <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom-image rounded-4">
+                        <img src="https://fondussimo.com/wp-content/uploads/2021/04/quoi-faire-avec-le-bouillon.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                    </div>
+                   
+                    <div class="card-custom-content p-4">
+                        <h5>Minestrone</h5>
+                    </div>
+                </div> 
+                <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom-image rounded-4">
+                        <img src="https://larecette.net/wp-content/uploads/2019/08/iStock-1146237279-1200x900.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                    </div>
+                   
+                    <div class="card-custom-content p-4">
+                        <h5>Osso Buco alla Milanese</h5>
+                    </div>
+                </div> 
+                <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom-image rounded-4">
+                        <img src="https://images.kitchenstories.io/wagtailOriginalImages/R1385-photo-final/R1385-photo-final-large-landscape-150.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                    </div>
+                   
+                    <div class="card-custom-content p-4">
+                        <h5>Saltimbocca alla Romana</h5>
+                    </div>
+                </div>
+                <div class="card-custom rounded-4  col-md-2"data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom-image rounded-4">
+                        <img src="https://offloadmedia.feverup.com/marseillesecrete.com/wp-content/uploads/2021/09/08065352/la-delicieuse-recette-de-tiramisu-de-christophe-michalak.jpg" class="card-img-top" alt="Yemek Fotoğrafı">
+                    </div>
+                   
+                    <div class="card-custom-content p-4">
+                        <h5>Tiramisu</h5>
+                    </div>
+                </div> 
+                
+                
+            </div>
+            
+        </div>
+    </section>
+    <!--//MENU-->
+
+    <!--ABOUT US-->
+        <section id="aboutus" class="full-height">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="https://f3e6t7k9.stackpathcdn.com/wp-content/uploads/2016/09/Food-map-banner.jpg?x74396" alt="" class="img-fluid rounded-5">
+                        <img src="https://www.utat.it/files/background/cucina_cucinese.jpg" alt=""class="img-fluid rounded-5">
+                        <img src="https://www.dse.univr.it/documenti/Seminario/immagine/immagine573082.jpg" alt=""class="img-fluid rounded-5">
+                    </div>
+                    <div class="col-md-6 d-flex align-items-center flex-column">
+                        <h2 id="aboutusheading" data-aos="fade-left" data-aos-delay="150">About Us</h2>
+                        <p class="ps-5 pt-1"data-aos="fade-left" data-aos-delay="150">Welcome to our authentic Italian restaurant! Our mission is to bring the taste of Italy to your table, offering a wide variety of delicious dishes inspired by traditional recipes. Our chefs use only the freshest ingredients, combining classic Italian flavors with a modern twist. From homemade pasta and wood-fired pizza to hearty soups and savory meat dishes, our menu has something for everyone. Our cozy and inviting atmosphere is the perfect place to enjoy a romantic dinner for two or to celebrate a special occasion with family and friends. Come and experience the warmth and hospitality of Italy right here in our restaurant. We look forward to serving you!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--//ABOUT US-->
+
+    <!--Services-->
+        <section id="services" class="full-height">
+            <div id="servicesbackground"></div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h2 id="servicesheading">Why choose us?</h2>
+                        
+                    </div>
+                </div>
+                <div class="row pt-4 d-flex justify-content-between">
+                    <div class="card-custom rounded-4  col-md-3 bg-light bg-opacity-50">
+                        <div class="card-custom-icon rounded-4">
+                            <i class="las la-utensils"></i>
+                        </div>
+                       
+                        <div class="card-custom-content p-4 ">
+                            <h5>Authentic Italian Cuisine</h5>
+                            <p>Our menu is inspired by traditional Italian recipes and our chefs use only the freshest ingredients to create delicious and authentic dishes that will transport you straight to Italy.</p>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-3 bg-light bg-opacity-50">
+                        <div class="card-custom-icon rounded-4">
+                            <i class="las la-chair"></i>                        
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Cozy and Inviting Atmosphere</h5>
+                            <p>Our restaurant offers a warm and welcoming atmosphere that is perfect for enjoying a romantic dinner for two, celebrating special occasions with family and friends, or simply enjoying a delicious meal in a relaxing environment.</p>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-3 bg-light bg-opacity-50">
+                        <div class="card-custom-icon rounded-4">
+                            <i class="las la-smile"></i>                        
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Excellent Customer Service</h5>
+                            <p>Our team is dedicated to providing you with the best possible dining experience. From friendly and attentive service to personalized recommendations, we strive to ensure that every guest feels valued and satisfied.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-4 d-flex justify-content-between">
+                    <div class="card-custom rounded-4  col-md-3 bg-light bg-opacity-50">
+                        <div class="card-custom-icon rounded-4">
+                            <i class="las la-utensils"></i>
+                        </div>
+                       
+                        <div class="card-custom-content p-4 ">
+                            <h5>Wide Selection of Menu Items</h5>
+                            <p>We offer a wide variety of dishes to suit every taste, from homemade pasta and wood-fired pizza to hearty soups and savory meat dishes. Our menu has something for everyone, including vegetarian and gluten-free options.</p>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-3 bg-light bg-opacity-50">
+                        <div class="card-custom-icon rounded-4">
+                            <i class="las la-credit-card"></i>                        
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Affordable Prices</h5>
+                            <p>We believe that everyone should be able to enjoy the taste of Italy without breaking the bank. That's why we offer high-quality dishes at affordable prices, so you can indulge in your favorite Italian cuisine without breaking the bank.</p>
+                        </div>
+                    </div>
+                    <div class="card-custom rounded-4  col-md-3 bg-light bg-opacity-50">
+                        <div class="card-custom-icon rounded-4">
+                            <i class="las la-map-marker-alt"></i>                        
+                        </div>
+                       
+                        <div class="card-custom-content p-4">
+                            <h5>Convenient Location</h5>
+                            <p>Our restaurant is conveniently located in the heart of the city, making it easy to find and accessible to everyone. Whether you're a local or a visitor, we're always ready to welcome you with open arms.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--Services-->
+    <!--Book Online-->
+        <section id="bookonline" class="full-height">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Book Your Table</h2>
+                    <p>Planning a special occasion or simply want to enjoy a delicious meal with family and friends? Book your table now and let us take care of the rest. From our mouth-watering menu to our cozy atmosphere, we guarantee a dining experience that you won't forget.</p>
+                
+
+                    <div class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="150">
+                        <form action="#" class="row g-lg-3 gy-3" id="sectionform">
+                            <div class="form-group col-12">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group col-12">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="tel" class="form-control" placeholder="Your Phone Number">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="number" class="form-control" placeholder="Number of Persons">                            
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="date" class="form-control" placeholder="Date">                            
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="time" class="form-control" placeholder="Time">                            
+                            </div>
+                            
+                            <div class="form-group col-12">
+                                <textarea name="" rows="4" class="form-control" placeholder="Leave Us A Note" ></textarea>
+                            </div>
+                            </div>
+                            <div class="form-group col-12 mt-2">
+                                <button id="formbutton" type="submit" class="btn btn-light" data-aos="fade-up" data-aos-delay="150">Book My Table</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--Counter-->
+    
+   
+
+            <section id="counter" class="section-padding">
+                <div class="container text-center">
+                    <div class="row g-4">
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="150">
+                            <h1 class="text-white display-4">50K+</h1>
+                            <h6 class="text-uppercase mb-0 text-white mt-3">Positive Comments</h6>
+                        </div>
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="250">
+                            <h1 class="text-white display-4">100K+</h1>
+                            <h6 class="text-uppercase mb-0 text-white mt-3">Happy Customers</h6>
+                        </div>
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="350">
+                            <h1 class="text-white display-4">100+</h1>
+                            <h6 class="text-uppercase mb-0 text-white mt-3">Branch</h6>
+                        </div>
+                        <div class="col-lg-3 col-sm-6" data-aos="fade-down" data-aos-delay="450">
+                            <h1 class="text-white display-4">3K+</h1>
+                            <h6 class="text-uppercase mb-0 text-white mt-3">Team Members</h6>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!--//Counter-->
+        </section>
+    <!--//Book Online-->
+    
+    <!-- FOOTER -->
+    <footer class="bg-white">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-sm-6">
+                        <p>"Thank you for choosing our restaurant - we hope you enjoyed your meal and look forward to serving you again soon!"</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="ri-twitter-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-fill"></i></a>
+                            <a href="#"><i class="ri-facebook-fill"></i></a>
+                            <a href="#"><i class="ri-snapchat-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-3 text-dark">SERVICES</h5>
+                        <ul>
+                            <li><a href="#">Mobile App</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Catering</a></li>
+                            <li><a href="#">Takeout</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-3 text-dark">ABOUT</h5>
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">History</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h5 class="mb-3 text-dark">CONTACT</h5>
+                        <ul>
+                            <li>Bolu, Turkey</li>
+                            <li>(555) 123 45 67</li>
+                            <li>restaurant@food.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row g-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">© Copyright Brand. All Rights Reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed By <span><a href="https://www.linkedin.com/in/akkologlu/" style="color:  rgb(212, 58, 58);;">Akkologlu</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--//Footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
